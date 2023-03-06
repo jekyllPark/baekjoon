@@ -1,3 +1,5 @@
+package day1;
+
 import java.io.*;
 
 public class BAEKJOON_1193 {

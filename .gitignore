@@ -1,2 +1,9 @@
 # Project exclude paths
 /out/
+/.idea/.gitignore
+/.idea/aws.xml
+/baekjoon.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/uiDesigner.xml
+/.idea/vcs.xml

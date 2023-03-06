@@ -1,3 +1,5 @@
+package day1;
+
 public class BAEKJOON_4673 {
     public static void main(String[] args) {
         boolean[] check = new boolean[10001];
