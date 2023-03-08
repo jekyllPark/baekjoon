@@ -22,7 +22,7 @@ public class 게임을_만든_동준이_2847 {
         int ans = 0;
 
         int curr = list.get(list.size() - 1);
-        for (int i = list.size() - 2; i >= 0; i--) { // 3 5 5 7
+        for (int i = list.size() - 2; i >= 0; i--) {
             if (curr > list.get(i)) {
                 curr = list.get(i);
             } else {
