@@ -23,15 +23,10 @@ public class 게임을_만든_동준이_2847 {
 
         int curr = list.get(list.size() - 1);
         for (int i = list.size() - 2; i >= 0; i--) { // 3 5 5 7
-            System.out.println("================");
-            System.out.println("list.get(i) = " + list.get(i));
-            System.out.println("curr = " + curr);
-            System.out.println("ans = " + ans);
             if (curr > list.get(i)) {
                 curr = list.get(i);
             } else {
                 int gap = Math.abs(list.get(i) - curr) + 1;
-                System.out.println("gap = " + gap);
                 curr = list.get(i) - gap;
                 ans += Math.abs(gap);
             }
